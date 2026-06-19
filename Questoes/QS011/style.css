@@ -1,0 +1,147 @@
+@font-face {
+    font-family:'droid';
+    src: url('idroid.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    text-decoration: none;
+    color: white;
+    background-color: rgb(187, 192, 150);
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+header {
+   border-radius: 8px 0px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: linear-gradient(to bottom, #7FE394, #035927); 
+    padding: 10px 10px 5px 10px;
+    box-shadow: 1px 3px 4px rgba(0, 0, 0, 0.37)
+   
+}
+header > p {
+    color: rgba(255, 255, 255, 0.479);
+}
+header > h1 {
+    font-size: 26px;
+}
+header > p {
+    font-size: 20px;
+}
+nav {
+    text-align: left;
+    
+}
+nav > p {
+    margin: 20px;
+    
+    
+}
+a {
+    text-decoration: none;
+    color: #A1E3BD;
+    margin-right: 25px;
+    display: inline-block;
+}
+a:hover {
+    color: #a1e3bc59;
+    background-color: #13cc6059;
+   height: 50px;
+   width: 110px;
+    
+    
+}
+main {
+    background-color: white;
+    color: black;
+    border-radius: 8px ;
+    text-indent: 20px;
+    font-style: italic;
+    padding: 50px;
+    margin: 20px 20px;
+    font-size: 1.15em;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.37)
+    
+
+}
+h1.personalisado {
+    font-family:'droid', 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    text-indent: 5px;
+    color: #035927; 
+}
+.subtitulo {
+    font-family: 'droid';
+    color: #035927;
+    margin: 20px;
+    background-image: linear-gradient(to right,#0ac558ab,#a1e3bc3f);
+    font-style: italic;
+}
+.link {
+    color: #013301;
+    background-color:#0ac55863 ;
+    
+}
+.link:hover {
+    background-color:#07a148b7 ;
+    color:#013301 ;
+    display: inline;
+    padding: 5px;
+}
+.link::after {
+    content: '🔗';
+}
+.materia {
+    font-size: 1.25em;
+}
+.grafo {
+    color: #013301;
+    
+}
+.verde {
+    background-color: #86c493;
+    padding: 10px;
+    margin:  10px;
+}
+.esq {
+    list-style-type: none;
+    padding-left: 0;
+    text-decoration: underline;
+}
+.esq li {
+    position: relative;
+    padding-left: 35px;
+}
+.esq li::before {
+    content: "✅";
+    position: absolute;
+    left: 0;
+}
+ul {
+     display: inline-block;
+}
+.linkverde {
+    background-color: rgb(55, 250, 55);
+    color: #013301;
+}
+.linkverde:hover {
+    background-color: white;
+    color: #013301;
+    width:100px;
+    height: 59px;
+}
+.linkverde::after {
+    content: '🔗';
+}
+footer {
+    font-size: 18px;
+    background-color: #012201;
+    padding: 14px;
+    margin: 10px;
+    font-style: italic;
+    text-align: center;
+}
+footer > p {
+    margin: 0px;
+}

@@ -1,0 +1,33 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    text-align: justify;
+    background-color: lightgrey;
+}
+img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    
+
+}
+h1#principal {
+    text-align: center;
+}
+p {
+    text-indent: 10px;
+}
+section {
+    background-color: white;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.356);
+}
+a {
+     text-decoration: none;
+     color: rgb(165, 4, 165);
+}
+a:visited {
+    color: rgb(107, 1, 107);
+}
+a:hover {
+    text-decoration: underline;
+}
