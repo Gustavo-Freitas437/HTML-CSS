@@ -54,3 +54,7 @@ article {
      background-repeat: no-repeat;
      background-attachment: fixed;
 }
+.sec {
+    background-color: rgba(0, 0, 0, 0.404);
+    color: white;
+}
